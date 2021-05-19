@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/snap-assign/static/css/main.bd929a49.chunk.css",
+    "main.js": "/snap-assign/static/js/main.94b79e86.chunk.js",
+    "main.js.map": "/snap-assign/static/js/main.94b79e86.chunk.js.map",
+    "runtime-main.js": "/snap-assign/static/js/runtime-main.634b0659.js",
+    "runtime-main.js.map": "/snap-assign/static/js/runtime-main.634b0659.js.map",
+    "static/js/2.1147870d.chunk.js": "/snap-assign/static/js/2.1147870d.chunk.js",
+    "static/js/2.1147870d.chunk.js.map": "/snap-assign/static/js/2.1147870d.chunk.js.map",
+    "index.html": "/snap-assign/index.html",
+    "static/css/main.bd929a49.chunk.css.map": "/snap-assign/static/css/main.bd929a49.chunk.css.map",
+    "static/js/2.1147870d.chunk.js.LICENSE.txt": "/snap-assign/static/js/2.1147870d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.634b0659.js",
+    "static/js/2.1147870d.chunk.js",
+    "static/css/main.bd929a49.chunk.css",
+    "static/js/main.94b79e86.chunk.js"
+  ]
+}
