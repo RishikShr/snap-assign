@@ -62,7 +62,7 @@ const Map = () => {
         <MapContainer
           id="map"
           ref={mapContainer}
-          style={{style:'mapbox://styles/mapbox/streets-v11', width: 600, height: 700 }}
+          style={{style:'mapbox://styles/mapbox/streets-v11', position:'absolute',width: 100%, height: 100%}}
           />        
       </div>
      <div className="render">
