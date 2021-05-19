@@ -11,7 +11,7 @@ const MapContainer = styled.div`
   height: 50vh;
 `;
 
-mapboxgl.accessToken = "sk.eyJ1IjoicmlzaGlrc2hyaXZhc3RhdiIsImEiOiJja292b3RvZW4wNHdtMm5ucmV1andtdW5xIn0.cqpJQj9RynBPIU04Y72shQ";
+mapboxgl.accessToken = "pk.eyJ1IjoicmlzaGlrc2hyaXZhc3RhdiIsImEiOiJja292b28ybnAwNDhiMm9yc2l2OW5kZGZiIn0.qqAo5KFWpAlsBjaapYWgEA";
 
 const Map = () => {
   const mapContainer = useRef();
