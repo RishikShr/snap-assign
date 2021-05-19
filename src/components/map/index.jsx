@@ -1,6 +1,7 @@
 import mapboxgl from "mapbox-gl";
 import { useEffect, useRef, useState } from "react";
 import styled from "styled-components";
+import 'mapbox-gl/dist/mapbox-gl.css';
 
 import RenderScene from "../renderScene";
 import  './index.scss';
@@ -10,7 +11,7 @@ const MapContainer = styled.div`
   height: 50vh;
 `;
 
-mapboxgl.accessToken = "pk.eyJ1Ijoic2h1YmhhbWt1bWF3YXQ3ODkiLCJhIjoiY2tvM3hoOG9kMWRtMjJ1azQwNmlqMmpkdiJ9.1rAuBqANI9uOd4bzVbdxyg";
+mapboxgl.accessToken = "sk.eyJ1IjoicmlzaGlrc2hyaXZhc3RhdiIsImEiOiJja292b3RvZW4wNHdtMm5ucmV1andtdW5xIn0.cqpJQj9RynBPIU04Y72shQ";
 
 const Map = () => {
   const mapContainer = useRef();
@@ -31,7 +32,7 @@ const Map = () => {
       map = new mapboxgl.Map({
         container: mapContainer.current, 
         style: "mapbox://styles/mapbox/streets-v11", 
-        center: [75.857,22.719], 
+        center: [-74.5, 40],//[75.857,22.719], 
         zoom: 12, 
         attributionControl: false
       });
@@ -61,7 +62,7 @@ const Map = () => {
         <MapContainer
           id="map"
           ref={mapContainer}
-          style={{ width: 600, height: 700 }}
+          style={{style:'mapbox://styles/mapbox/streets-v11', width: 600, height: 700 }}
           />        
       </div>
      <div className="render">
